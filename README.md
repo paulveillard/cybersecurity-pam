@@ -6,6 +6,7 @@ An ongoing & curated collection of awesome software best practices and technique
 
 
 ## `What is a Privileged Access Management (PAM)?`
+Privileged Access Management (PAM) refers to a class of solutions that help secure, control, manage and monitor privileged access to critical assets.
 
 ## Table of Contents
 
