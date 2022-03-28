@@ -5,7 +5,7 @@ An ongoing & curated collection of awesome software best practices and technique
 
 
 
-## `What is a Red Team?`
+## `What is a Privileged Access Management (PAM)?`
 
 ## Table of Contents
 
