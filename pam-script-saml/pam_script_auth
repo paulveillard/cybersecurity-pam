@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# set path for verbose logging
+LOGFILE=
+#LOGFILE=/tmp/pam-script-saml.log
+
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+OUTPUT=$(/usr/bin/env php -c "$DIR/php.ini" -f "$DIR/pam-script-saml.php" "$@")
+RETCODE=$?
+
+if [[ -n "$LOGFILE" ]]; then
+    echo "[$(/usr/bin/env date -R)] $OUTPUT" >> $LOGFILE
+fi
+
+exit $RETCODE

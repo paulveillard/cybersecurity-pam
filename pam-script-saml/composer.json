@@ -1,0 +1,5 @@
+{
+    "require": {
+        "lightsaml/lightsaml": "^1.0"
+    }
+}
